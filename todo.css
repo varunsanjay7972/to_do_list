@@ -74,12 +74,12 @@ ul li {
 
 ul {
     list-style-type: none;
-    counter-reset: list-item;
+    counter-reset: 1;
 }
 
 ul li::before {
     content: counter(list-item);
-    counter-increment: list-item;
+    counter-increment: 1;
     position: absolute;
     height: 28px;
     width: 28px;
